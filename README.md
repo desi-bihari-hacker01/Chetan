@@ -1,36 +1,13 @@
-# 🎙️ Chetan - Voice Assistant (Text-to-Speech)
+# Chetan - Text to Speech Test
 
-This is my **first step** toward a bigger project — a **Smart Room** that I can control using voice commands or simple prompts.
+This is just a small project I made to test text to speech in Python using pyttsx3.
 
-## 📌 Current Status
-Right now, this repository contains a **basic Text-to-Speech (TTS) test** built using Python's `pyttsx3` library. This is just me learning the fundamentals of how text-to-speech works before building anything bigger.
+Right now it only speaks one sentence:
+"Good morning! Welcome to the Python Voice Assistant. How can I assist you today?"
 
-## 🧪 What it does
-The Python script speaks the following sentence out loud:
-> "Good morning! Welcome to the Python Voice Assistant. How can I assist you today?"
+I'm still a beginner so this is just me testing how TTS works before I try something bigger.
 
-## 🚀 Live Demo
-Since `pyttsx3` runs locally and can't work directly in a browser, I built a simple web-based demo using the browser's built-in **Web Speech API**, which mimics the same functionality online:
+## Demo
 
-🔗 **[Try it here](https://desi-bihari-hacker01.github.io/Chetan/)**
-
-Just type any text and click **🔊 Speak** — the browser will read it aloud.
-
-## 🛠️ Tech Used
-- Python (`pyttsx3`) — original implementation
-- HTML, CSS, JavaScript (Web Speech API) — browser demo
-
-## 🌱 Future Vision
-This is just the beginning. My long-term goal is to build a **Smart Room System** where I can:
-- Control lights, fans, and appliances using **voice commands**
-- Interact with the system using natural language prompts
-- Eventually connect it with sensors and IoT devices for full automation
-
-This repo will evolve step-by-step as I learn more — starting with speech, then moving into speech recognition, automation, and hardware integration.
-
-## 📂 Files
-- `tts.py` → Original Python text-to-speech script
-- `docs/index.html` → Web-based demo (Web Speech API)
-
----
-*Made by a beginner, building toward something bigger.* 🚀
+pyttsx3 only works locally on a computer so it can't run in a browser directly.
+To let people test it online, I made a simple web page using JavaScript's built in speech feature. It does basically the same
