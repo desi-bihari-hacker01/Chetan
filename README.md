@@ -39,3 +39,37 @@ This is just the start. End goal is a smart room I can control with my voice or 
 
 Beginner coder, still learning. This repo will grow as I do.<img width="1366" height="768" alt="Screenshot (34)" src="https://github.com/user-attachments/assets/4a020c85-e579-4985-a2ec-a37a1c112fec" />
 <img width="1366" height="768" alt="Screenshot (33)" src="https://github.com/user-attachments/assets/4aa1ecd8-43f3-43cd-ae38-a94a8b146ad7" />
+# Python Voice Assistant 🔊
+
+A simple Python text-to-speech project using the `pyttsx3` library.
+
+## Requirements
+
+- Python 3.x
+- `pyttsx3`
+
+## How to Run Locally
+
+1. Clone this repository:
+
+```bash
+git clone https://github.com/desi-bihari-hacker01/Chetan.git
+cd Chetan
+```
+2. Install the required library 
+```
+pip install pyttsx3
+```
+3. Run the Python program:
+ ```
+python "practice python 1.py"
+```
+The program will speak a welcome message through your computer's speakers.
+
+How It Works
+
+The project uses the pyttsx3 library to initialize a text-to-speech engine, convert text into speech, and play the speech through the computer's audio system.
+
+Project
+
+This project is a simple demonstration of using Python to create a basic voice assistant with text-to-speech functionality.
